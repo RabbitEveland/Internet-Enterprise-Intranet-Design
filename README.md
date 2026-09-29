@@ -27,7 +27,7 @@
 
 原 `.venv` 指向已经不存在的 `E:` 路径，不要继续使用。
 
-1. 打开 **文件 → 设置 → 项目：大专毕业设计源代码 → Python 解释器**。
+1. 打开 **文件 → 设置 → 项目：源代码 → Python 解释器**。
 2. 点击 **添加解释器** → **添加本地解释器** → **Virtualenv** → **新建**。
 3. 位置设为项目根目录下的 `.venv`；基础解释器选择 Python 3.10+；点击 **确定**。
 4. 打开项目根目录的 `requirements.txt`，点击 PyCharm 显示的 **安装 requirements**。安装完成后应能看到 `cryptography` 和 `mysql-connector-python`。
