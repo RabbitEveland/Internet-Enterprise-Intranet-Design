@@ -1,0 +1,22 @@
+# Local Python environments and caches
+.venv/
+.packaging-venv/
+.packaging-tools/
+__pycache__/
+*.py[cod]
+
+# Runtime-only material. Never commit certificates, private keys, or logs.
+runtime/
+*.pem
+*.key
+*.log
+
+# IDE files
+.idea/
+
+# Local release builds. Publish the installer as a release asset, not a Git commit.
+build/
+dist/
+installer-output/
+*.spec
+
