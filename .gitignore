@@ -20,3 +20,10 @@ dist/
 installer-output/
 *.spec
 
+# Superseded files from the original TLS demo. The active configuration is /config.ini.
+/client/config.ini
+/client/ssl_sects
+/server/config.ini
+/server/server_config.ini
+/common/_init_.py
+
