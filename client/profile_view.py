@@ -85,7 +85,7 @@ class PublicProfileWindow:
     def loaded(self, user: dict[str, Any]) -> None:
         self.name.set(user["username"])
         self.role.set("管理员" if user["role"] == "admin" else "普通用户")
-        self.gender.set(f"性别认同：{user.get('gender_identity') or '对方未填写'}")
+        self.gender.set(f"性别：{user.get('gender_identity') or '对方未填写'}")
         self.job_title.set(f"职位：{user.get('job_title') or '对方未填写'}")
         self.bio.configure(state="normal")
         self.bio.delete("1.0", "end")
