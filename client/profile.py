@@ -17,14 +17,7 @@ from client.api import MessengerApi
 GENDER_IDENTITY_OPTIONS = (
     "女性/Female",
     "男性/Male",
-    "非二元性别/Non-binary",
-    "跨性别女性/Transgender Female",
-    "跨性别男性/Transgender Male",
-    "酷儿/Queer",
-    "无性别",
-    "双性人",
     "不愿透露",
-    "自定义填写",
 )
 MAX_AVATAR_BYTES = 512 * 1024
 
