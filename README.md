@@ -61,7 +61,7 @@ user = secure_messenger_app
 
 ## Windows 安装包
 
-本机构建后的安装向导位于 `installer-output\SecureMessenger-Setup.exe`；该二进制不纳入 Git 仓库，应作为 GitHub Release 附件发布。安装脚本为 [packaging/SecureMessenger.iss](packaging/SecureMessenger.iss)。安装向导默认安装到 `D:\SecureMessenger`，可在向导中改为其他位置；不会写入 C 盘，也不会安装、重置或修改 MySQL 服务。
+本仓库附带已构建的安装向导：`installer-output\SecureMessenger-Setup.exe`。安装脚本为 [packaging/SecureMessenger.iss](packaging/SecureMessenger.iss)。安装向导默认安装到 `D:\SecureMessenger`，可在向导中改为其他位置；不会写入 C 盘，也不会安装、重置或修改 MySQL 服务。
 
 安装完成后，开始菜单会有“启动服务端”“启动客户端”和“重新生成 TLS 证书”三个入口。先启动服务端并在弹窗中输入现有 MySQL 项目账号密码和 TLS 私钥口令，再启动客户端。安装包保留 `config.ini`、TLS 证书和加密私钥；升级安装时不会覆盖安装目录中已经存在的这三类配置文件。
 

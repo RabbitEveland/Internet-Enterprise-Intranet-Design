@@ -14,10 +14,9 @@ runtime/
 # IDE files
 .idea/
 
-# Local release builds. Publish the installer as a release asset, not a Git commit.
+# Local build intermediates.
 build/
 dist/
-installer-output/
 *.spec
 
 # Superseded files from the original TLS demo. The active configuration is /config.ini.
