@@ -1,0 +1,14 @@
+# Python virtual environments and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local IDE settings
+.idea/
+
+# Runtime output
+*.log
+
+# Locally generated TLS private keys and certificates
+*.key
+*.pem
